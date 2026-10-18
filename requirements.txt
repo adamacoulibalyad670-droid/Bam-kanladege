@@ -1,0 +1,6 @@
+gradio
+TTS
+langdetect
+soundfile
+torch
+torchaudio
