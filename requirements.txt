@@ -1,6 +1,11 @@
-gradio
+streamlit
 TTS
 langdetect
 soundfile
 torch
 torchaudio
+huggingface-hub
+# Optional heavy deps for Qwen3-TTS (install only if you plan to use qwen3 engine)
+# faster-whisper==1.1.1
+# ctranslate2==4.5.0
+# qwen3-tts (install via: pip install -e ./Qwen3-TTS or follow Qwen3-TTS repo instructions)
