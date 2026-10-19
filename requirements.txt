@@ -1,11 +1,8 @@
 streamlit
-TTS
 langdetect
-soundfile
-torch
-torchaudio
 huggingface-hub
-# Optional heavy deps for Qwen3-TTS (install only if you plan to use qwen3 engine)
-# faster-whisper==1.1.1
-# ctranslate2==4.5.0
-# qwen3-tts (install via: pip install -e ./Qwen3-TTS or follow Qwen3-TTS repo instructions)
+numpy
+# NOTE: Heavy TTS packages (TTS, torch, torchaudio, faster-whisper, ctranslate2) are intentionally omitted
+# from this requirements.txt because they often fail to build on Streamlit Cloud. If you plan to use
+# Qwen3-TTS or Coqui TTS, run the Colab notebook provided (Qwen3_TTS_Colab_for_Bam-kanladege.ipynb) which
+# prepares a GPU environment and runs the heavy models there.
